@@ -1,5 +1,7 @@
 # An Example: Implement 2D colonoscopy segmentation model into MONAI Label
 
+![monailabel_capture](https://user-images.githubusercontent.com/24987707/162153621-2386c5c2-7333-4f28-897e-e10e56680a73.JPG)
+
 ## Environment
 The app was developed with the official MONAI docker container (https://hub.docker.com/r/projectmonai/monai, v0.8.1) and MONAI Label v0.4.dev2213. </br>
 MONAI Label installation:
