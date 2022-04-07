@@ -1,14 +1,14 @@
 # An Example: Implement 2D colonoscopy segmentation model into MONAI Label
 
 ## Environment
-The app was developed in the official MONAI docker container (v0.8.1): https://hub.docker.com/r/projectmonai/monai
+The app was developed in the official MONAI docker container (v0.8.1): https://hub.docker.com/r/projectmonai/monai </br>
 MONAI Label installation:
 ```bash
 pip install monailabel-weekly
 ```
 
 ## Pre-trained model
-Please put the pre-trained models of PraNet-19 and Res2Net weights into the folder colonoscopy_app/model/
+Please put the pre-trained models of PraNet-19 and Res2Net weights into the folder colonoscopy_app/model/ </br>
 The pre-trained models can be downloaded from the PraNet repo: https://github.com/DengPingFan/PraNet#31-trainingtesting
 
 ## Sample data
