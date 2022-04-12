@@ -106,7 +106,7 @@ class ToUint8d(monai.transforms.MapTransform):
 #         inputs[self.key] = np.concatenate([inputs[self.key][..., None] for i in range(3)], axis=-1)
 #         plt.imsave('/tmp/test.jpg', inputs[self.key])
 #         print(inputs[self.key].max())
-        np.save('/tmp/test2.npy', inputs[self.key])
+#         np.save('/tmp/test2.npy', inputs[self.key])
         return inputs
 
 class PraNetOutd(monai.transforms.MapTransform):
