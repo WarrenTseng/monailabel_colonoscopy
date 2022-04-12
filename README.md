@@ -6,7 +6,7 @@
 The app was developed with the official MONAI docker container (https://hub.docker.com/r/projectmonai/monai, v0.8.1) and MONAI Label v0.4.dev2213. </br>
 MONAI Label installation:
 ```bash
-pip install monailabel-weekly
+pip install monailabel-weekly==v0.4.dev2213
 ```
 
 ## Pre-trained model
