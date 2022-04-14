@@ -36,7 +36,6 @@ SW version in the image
 - TorchVision 0.9
 - TorchAudio 0.8
 - Monai 0.8.1
-- Monai Lebel 0.3.1
 
 #### Steps to build the image (It takes several hours and a large amount of disk space to build the image)
 
@@ -55,10 +54,9 @@ pip install --no-build-isolation git+https://github.com/Project-MONAI/MONAI#egg=
 pip install git+https://github.com/Project-MONAI/MONAILabel#egg=monailabel
 ```
 
-
-
-
-
+#### Contributors
+Eddie Huang, NVIDIA, tzungchih@nvidia.com
+Eason Hung, NVIDIA, eahung@nvidia.com
 
 
 
