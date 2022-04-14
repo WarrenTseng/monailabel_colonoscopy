@@ -23,8 +23,37 @@ Note:
 
 The full repo with pre-trained models can be downloaded here: https://drive.google.com/file/d/1tetR6TtWcsp_g6mkHmsk8kFvDuDpiJdA/view?usp=sharing
 
+## Step to Build Monai on Clara AGX Dev Kit
+The pre-build docker image for PyTorch/TorchVision/Monai/MonaiLabel is provided on docker hub.
+```bash
+docker pull eahung/cagx_monai
+```
+SW version in the image
+- Ubuntu 20.04
+- CUDA 11.2.0
+- CUDNN 8
+- PyTorch 1.8.0
+- TorchVision 0.9
+- TorchAudio 0.8
+- Monai 0.8.1
+- Monai Lebel 0.3.1
 
+#### Steps to build the image (It takes several hours and a large amount of disk space to build the image)
 
+1. Pull docker image nvidia/cuda:11.2.0-cudnn8-devel-ubuntu20.04
+
+2. Build PyTorch and TorchVision
+  - Suggested reed: https://qengineering.eu/install-pytorch-on-jetson-nano.html
+
+3. Build Monai (https://docs.monai.io/en/stable/installation.html)
+```bash
+BUILD_MONAI=1 
+pip install --no-build-isolation git+https://github.com/Project-MONAI/MONAI#egg=monai
+```
+4. Build Monai Label (https://docs.monai.io/en/stable/installation.html)
+```bash
+pip install git+https://github.com/Project-MONAI/MONAILabel#egg=monailabel
+```
 
 
 
