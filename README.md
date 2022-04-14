@@ -43,7 +43,7 @@ SW version in the image
 1. Pull docker image nvidia/cuda:11.2.0-cudnn8-devel-ubuntu20.04
 
 2. Build PyTorch and TorchVision
-  - Suggested reed: https://qengineering.eu/install-pytorch-on-jetson-nano.html
+    -  Suggested reed: https://qengineering.eu/install-pytorch-on-jetson-nano.html
 
 3. Build Monai (https://docs.monai.io/en/stable/installation.html)
 ```bash
