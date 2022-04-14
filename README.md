@@ -54,8 +54,9 @@ pip install --no-build-isolation git+https://github.com/Project-MONAI/MONAI#egg=
 pip install git+https://github.com/Project-MONAI/MONAILabel#egg=monailabel
 ```
 
-#### Contributors
-Eddie Huang, NVIDIA, tzungchih@nvidia.com
+### Contributors
+---
+Eddie Huang, NVIDIA, tzungchih@nvidia.com <br/>
 Eason Hung, NVIDIA, eahung@nvidia.com
 
 
