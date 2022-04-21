@@ -23,7 +23,7 @@ Note:
 
 The full repo with pre-trained models can be downloaded here: https://drive.google.com/file/d/1tetR6TtWcsp_g6mkHmsk8kFvDuDpiJdA/view?usp=sharing
 
-## Step to Build Monai on Clara AGX Dev Kit
+## Steps to Build Monai on Clara AGX Dev Kit
 The pre-build docker image for PyTorch/TorchVision/Monai/MonaiLabel is provided on docker hub.
 ```bash
 docker pull eahung/cagx_monai
