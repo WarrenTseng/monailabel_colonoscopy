@@ -19,7 +19,7 @@ From Kvasir-SEG dataset https://datasets.simula.no/kvasir-seg/
 
 Note:
 - Replace monailabel transforms.py (located in /your/pythonlib/path/of/monailabel/deepedit/multilabel/transforms.py) with the provided transforms.py
-- Replace monai dice.py (located in /your/pythonlib/path/of/monai/losses/dice.py with the provided dice.py
+- Replace monai dice.py (located in /your/pythonlib/path/of/monai/losses/dice.py) with the provided dice.py
 </br>
 
 The full repo with pre-trained models can be downloaded here: https://drive.google.com/file/d/1tetR6TtWcsp_g6mkHmsk8kFvDuDpiJdA/view?usp=sharing
@@ -43,7 +43,7 @@ SW version in the image
 1. Pull docker image nvidia/cuda:11.2.0-cudnn8-devel-ubuntu20.04
 
 2. Build PyTorch and TorchVision
-    -  Suggested reed: https://qengineering.eu/install-pytorch-on-jetson-nano.html
+    -  Suggested read: https://qengineering.eu/install-pytorch-on-jetson-nano.html
 
 3. Build Monai (https://docs.monai.io/en/stable/installation.html)
 ```bash
